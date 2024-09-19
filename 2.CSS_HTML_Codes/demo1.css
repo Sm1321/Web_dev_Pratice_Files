@@ -1,0 +1,41 @@
+/**@format*/
+.para{
+    color:brown;
+    font-size: 20px;
+    font-weight:bold;
+    font-style:italic;
+    background-color: yellowgreen;
+    padding: 50px;
+    text-decoration: underline dashed black;
+}
+
+
+.para1{
+    color:blue;
+    text-decoration: overline solid black;
+}
+
+#para2{
+    color:chocolate;
+    text-decoration: line-through dashed white;
+}
+
+/*universal Selector*/
+*{
+    color:black;
+    background-color: bisque;
+}
+
+
+/*
+selector{
+    property-name:value
+}
+
+
+types of selectors
+----------------
+1.class selector
+2.id selector
+3.tag name selector
+*/
