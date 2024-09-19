@@ -1,0 +1,53 @@
+
+*{
+    background-color: bisque;
+
+}
+.flexbox{
+    background-color: blanchedalmond;
+    height:100vh;
+    width:100vw
+}
+
+body{
+background-color: bisque;
+background-image: url("");
+background-repeat: no-repeat;
+height: 100vh;
+width: 100vw;
+
+}
+
+
+.box1{
+    background-color: red;
+}
+
+
+.box2{
+    background-color: green;
+}
+
+
+.box3{
+
+    background-color: blue;
+}
+
+/*  */
+nav{
+   background-color: navy !important;
+   color:black;
+   padding: 10px;
+
+}
+
+footer{
+    background-color: black;
+    color:white;
+    height:200px;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
