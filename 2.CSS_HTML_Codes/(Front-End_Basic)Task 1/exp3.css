@@ -1,0 +1,47 @@
+    
+.navbar {
+      overflow: hidden;
+      background-color: #333;
+  }
+ .navbar img
+   {  height: 60px;
+      width: 100px;
+   }
+  
+  .navbar a 
+   {   float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      text-align: center;
+      font-size: x-large;
+  }
+
+ 
+  .navbar a:hover {
+      background-color: grey;
+      color: black;
+  }
+   .para
+   {
+       padding: 30px;
+       text-align: center;
+       color: rgba(255, 255, 255, 0.968) ;
+   }
+   body{
+      background-image: url("https://images.pexels.com/photos/2814828/pexels-photo-2814828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+     background-repeat: no-repeat;
+     background-size: cover
+   
+   }
+   .button{
+      background-color: cadetblue;
+      color: aliceblue;
+      padding: 10px;
+      height: 30px;
+      width: 90px;
+      border-style: solid;
+      margin: 15px;
+   }
