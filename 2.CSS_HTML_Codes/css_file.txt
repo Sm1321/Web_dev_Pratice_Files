@@ -1,0 +1,138 @@
+types of selectors
+----------------------
+1.class selector(.)
+2.id selector(#)
+3.tag name selector(h1,p)
+4.universal selector(*)
+
+Use of Selectors:
+-------------------------
+1. Class Selector (.): Styles multiple elements with the same class name.
+2. ID Selector (#): Targets and styles a unique element with a specific ID.
+3. Tag Name Selector (h1, p): Applies styles to all elements of a specific tag.
+4. Universal Selector (*): Targets and styles all elements on the page
+
+#############################################################################
+Types of Tags
+--------------
+1.Semantic Tags
+  => Header
+  => nav
+  => section
+  => article
+  => aside
+  => footer
+Use of Tags:
+----------------
+Semantic Tags: 
+  => Provide meaningful structure to the content for better accessibility and SEO.
+
+Header:
+- Defines the header section.
+- headings(h1-h6)
+Nav:
+- Represents navigation links.
+- home,services,contact us..
+Section:
+- Defines sections in a document.
+- ex:- introduction ,chapters information
+Article:
+- Represents independent content.
+- ex:-bolgs information,articsl information..
+Aside:
+- Contains content aside from the main content.
+- aside elemnt represents a portion of a document,
+ whose content is only indirectly relared to the documet's main content
+
+Footer:
+- Defines the footer section.
+- 
+
+
+------------------------------------------------------------------------------------------
+2.Non-semantic Tags
+  => div
+  => span
+
+use of Non-semantic Tags:
+--------------------------
+Used for generic container elements without meaning.
+Div: 
+-> Used as a generic container for other elements.
+Span:
+-> Used to apply styles or scripts to small parts of text.
+
+----------------------------------------------------------------------------------
+3.Self-closing Tags
+  => All input Tags
+  => br
+  => img
+
+
+Use of Self-closing Tags:
+----------------------------
+-> Tags that do not need a closing tag.
+Input: Collects user input.
+Br: Inserts a line break.
+Img: Embeds images.
+
+-----------------------------------------------------------------------------------------------
+4.open and close Tags
+  => h1 - h6
+  => p
+Open and Close Tags: Tags that enclose content and need both opening and closing tags.
+h1 - h6: Represent different levels of headings.
+p: Represents a paragraph of text.
+
+
+-----------------------------------------------------------------------------------------
+
+<element> or <tag>
+<open tag>
+content
+</closed tag>
+
+
+
+
+CSS Flexbox
+_____________________________________________________________________________
+
+Flex Box:
+-------------------------------------------------------------------------
+ Flex box:
+ ---------
+     Flexbox is one-dimesion layout method for arrnaging items in rows or columns
+
+Flex-Properties :
+-----------------------------------------------
+Flex
+flex-direction :
+               => row
+               =>column
+               =>row-reverse
+               =>column-reverse
+justify-content :
+               =>flex-start
+               =>center
+               =>space-between
+               =>space-around
+               =>space-evenly
+
+order : 1,2,3,......
+flex-grow : 1,2,3,4....
+{
+The flex-grow property specifies how much the item will,
+grow relative to the rest of the flexible items inside the same container.
+}
+flex-shrink : 1,2,....... (oppoitse of flex-grow is flex-shrink)     
+
+
+
+CSS Layout - The Position property
+_____________________________________________________________________________
+1.static 
+2.relative [relative to normal position]
+3.fixed [relative to the viewpoint ,always stays in the same place even ifthe page scorlled]
+4.absolute [relative to the nearest positioned ancestor]
+5.sticky [based on users scroll position ,a sticky toggles between relative and fixed]
