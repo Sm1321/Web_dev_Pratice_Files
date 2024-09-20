@@ -1,0 +1,43 @@
+*{
+    margin:0px !important;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    /*display: flex;*/ /*this will be in columns wise */
+    overflow-x:scroll;
+}
+
+.childContainerOne{
+    height : 100px;
+    flex-grow: 1;
+    background-color: green;
+}
+
+/*
+The flex-grow property specifies how much the item will,
+grow relative to the rest of the flexible items inside the same container.
+*/
+.childContainerTwo{
+    height: 100px;
+    flex-grow: 2;/*take double times width*/
+    background-color: red;
+}
+
+.childConatinerThree{
+    height: 100px;
+    flex-shrink: 2;
+    background-color: blue;
+
+}
+
+
+.childConatinerFour{
+    height: 100px;
+    flex-shrink: 1;
+    background-color: aqua;
+
+}
