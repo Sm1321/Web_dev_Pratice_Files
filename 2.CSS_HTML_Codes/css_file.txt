@@ -136,3 +136,17 @@ _____________________________________________________________________________
 3.fixed [relative to the viewpoint ,always stays in the same place even ifthe page scorlled]
 4.absolute [relative to the nearest positioned ancestor]
 5.sticky [based on users scroll position ,a sticky toggles between relative and fixed]
+
+
+
+
+
+
+CSS:
+--------------------------------------------------------------------------
+1.comments in CSS
+   => /*This is a single-line comment*/
+2.float
+  =>right
+  =>left
+3.     

@@ -1,0 +1,29 @@
+
+
+/* Styling the title */
+.title {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Styling the paragraph */
+.intro {
+    color: darkblue;
+    font-size: 18px;
+}
+
+
+/*This Css is dec about bg color*/
+.parentConatiner{
+    background-color: burlywood;
+    height: 100vh !important;
+    width: 100vw !important;
+}
+
+
+.floatContent{
+    background-color: brown;
+    display: inline;
+
+}
