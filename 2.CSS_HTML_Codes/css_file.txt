@@ -149,4 +149,29 @@ CSS:
 2.float
   =>right
   =>left
-3.     
+3.display
+  =>1.flex
+  =>2.block
+  =>3.inline
+  =>4.none
+
+4.visibility
+  =>hidden
+
+5.CSS Defines three types of gradients:
+  =>1.Linear gradients(goes down/up/left/right/diagobally)
+  =>2.Radial gradients(defined by their center)
+  =>3.conical gradients[not avilable for HTML5 Version]
+
+
+
+6.Shadow Effects
+  =>1.Text shadow effect!
+  =>2.box-shadow
+  
+
+7.vertical line
+  border:none
+  border:2px 0px 0px 0px red;
+  height:200px  
+
