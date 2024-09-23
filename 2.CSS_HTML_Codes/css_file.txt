@@ -140,38 +140,103 @@ _____________________________________________________________________________
 
 
 
+CSS :
+------------------------------------------------------
+1. Comments in Css 
+    => /* This is a single-line comment */
+2. float
+    =>1. left
+    =>2. right
+
+3. display
+    =>1. flex
+    =>2. block
+    =>3. inline
+    =>4 .none
+
+4. visibility
+    =>1. hidden
+
+5. CSS defines three types of gradients:
+ =>  1.Linear Gradients (goes down/up/left/right/diagonally)
+ =>  2.Radial Gradients (defined by their center)
+ =>  3. conical gradients [not available for the HTML5 version]
+
+6. Shadow effects
+    =>1. Text shadow effect!  text-shadow : right bottom left top color 
+    =>2. box-shadow
+
+7. vertical line
+    border:none
+    border : 2px 0px 0px 0px red;
+    height: 200px
 
 
-CSS:
---------------------------------------------------------------------------
-1.comments in CSS
-   => /*This is a single-line comment*/
-2.float
-  =>right
-  =>left
-3.display
-  =>1.flex
-  =>2.block
-  =>3.inline
-  =>4.none
 
-4.visibility
-  =>hidden
+ CSS
+---------------------------------------------------
+1. transition
+2. transition-delay
+3. transition-timing-function
+        => transition-timing-function: linear
+        => transition-timing-function: ease
+        => transition-timing-function: ease-in
+        => transition-timing-function: ease-out
+        => transition-timing-function: ease-in-out
+ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+linear - specifies a transition effect with the same speed from start to end
+ease-in - specifies a transition effect with a slow start
+ease-out - specifies a transition effect with a slow end
+ease-in-out - specifies a transition effect with a slow start and end
 
-5.CSS Defines three types of gradients:
-  =>1.Linear gradients(goes down/up/left/right/diagobally)
-  =>2.Radial gradients(defined by their center)
-  =>3.conical gradients[not avilable for HTML5 Version]
+4. transform
 
 
 
-6.Shadow Effects
-  =>1.Text shadow effect!
-  =>2.box-shadow
-  
 
-7.vertical line
-  border:none
-  border:2px 0px 0px 0px red;
-  height:200px  
+Class topics 
+---------------------------
+
+1. Animations 
+    => animation properties 
+    ________________________________
+
+        =>1. animation-name: example;
+        =>2. animation-duration: 4s;
+        =>3. animation-delay: 2s;
+        =>4. animation-iteration-count: 3 or infinite;
+        =>5. animation-direction: reverse; 
+        animation-direction property values :
+        ______________________________________
+            1.  normal - The animation is played as normal (forwards). This is default
+            2.  reverse - The animation is played in reverse direction (backwards)
+            3. alternate - The animation is played forwards first, then backwards
+            4. alternate-reverse - The animation is played backwards first, then forwards
+        =>6. animation-timing-function: linear, ease,ease-in,ease-out,ease-in-out
+
+    ---->Sytax for using the animations =>1.  @keyframes example {
+                    from {background-color: red;}
+                    to {background-color: yellow;}
+                }
+            =>2.  @keyframes example {
+                    0% {background-color: red;}
+                    20% {background-color: yellow;}
+                    40% {background-color : blue}
+                }
+
+
+
+Sass [Syntactically awesome style sheet] in css 
+-------------------------------------------------
+Instruction to use Scss file
+    =>1. install Live sass compailer for adding sass or scss
+    =>2. create the file with scss extension
+    =>3. Add the file link as 'fileName.css' extension
+    =>4. click on watch scss option in the bottom of vs code
+variable [$property-name:value]
+nested [{{}}]
+mixin [@mixin ,@include]
+_________________________________________________________________________________________________________________________________________
+
+
 
