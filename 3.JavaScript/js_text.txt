@@ -1,0 +1,90 @@
+Oct 16th class topics 
+______________________________________
+
+1. Introduction Javascript
+2. Synchronous, single threaded
+3. Comments in js [single-line,multi-line]
+4. Print data in the terminal
+5. Variables in Javascript [var,let,const]
+
+Oct 17th class topics 
+______________________
+Rules of writing variable names :
+----------------------------------
+=> It should not starts with numbers or special charactors
+=>It has to contain camel case,snake case, pascal case only.
+=> Done not contain special charectors
+
+1. Data types in javascript [8]
+    => 1.Number
+    =>2.Big Int
+    =>3. String
+    =>4.Boolean
+    =>5.Undefined
+    =>6.Null
+
+    other data types :
+    array
+    object
+
+2. Comparision [loose equals to(==) , strict equals to(===)]
+3. Operators 
+    Types of JavaScript Operators
+    There are different types of JavaScript operators:
+    --------------------------------------------------------
+    =>Arithmetic Operators
+    =>Assignment Operators
+    =>Comparison Operators
+    =>Ternary Operators
+    =>String Operators
+    =>Logical Operators
+    =>Bitwise Operators
+    =>Type Operators
+
+Arithmetic Operators :
+-----------------------
+Operator	Description
+
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+
+Assignment Operator :
+------------------------
+
+Operator	Example	Same As
+
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+
+Comparison operators :
+----------------------
+
+==	loose equals to or double equals to
+===	strict equals to or triple equals to
+!=	not equal		
+!==	not equal value or not equal type		
+>	greater than		
+<	less than	
+>=	greater than or equal to	
+<=	less than or equal to	
+
+Ternary Operators :
+-------------------
+
+condition ? true : false
+example :
+---------
+        const a = 20
+        const b = 20
+        const c = a===b?"true" :"false"
