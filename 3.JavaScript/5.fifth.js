@@ -55,6 +55,12 @@ var z = 100;   // hoisting will worl for the regular functions
 
 // let and const , and arrpw functions hoisting will not work
 
+console.log(y)
+const y =10; //error
+
+console.log(c)
+let c =10; //error
+
 
 
 
