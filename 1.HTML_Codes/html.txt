@@ -16,15 +16,23 @@ Semantic Tags:
 Header:
 - Defines the header section.
 - headings(h1-h6)
+
 Nav:
 - Represents navigation links.
+Ex-
 - home,services,contact us..
+
 Section:
 - Defines sections in a document.
-- ex:- introduction ,chapters information
+- ex:- 
+  introduction ,chapters information
+
 Article:
 - Represents independent content.
-- ex:-bolgs information,articsl information..
+- ex:- 
+  bolgs information,articsl information..
+
+
 Aside:
 - Contains content aside from the main content.
 - aside elemnt represents a portion of a document,
@@ -43,10 +51,13 @@ Footer:
 use of Non-semantic Tags:
 --------------------------
 Used for generic container elements without meaning.
+
 Div: 
 -> Used as a generic container for other elements.
+
 Span:
 -> Used to apply styles or scripts to small parts of text.
+
 
 ----------------------------------------------------------------------------------
 3.Self-closing Tags
@@ -59,19 +70,32 @@ Use of Self-closing Tags:
 ----------------------------
 -> Tags that do not need a closing tag.
 Input: Collects user input.
+
 Br: Inserts a line break.
+
 Img: Embeds images.
 
 -----------------------------------------------------------------------------------------------
 4.open and close Tags
   => h1 - h6
   => p
+
 Open and Close Tags: Tags that enclose content and need both opening and closing tags.
+
 h1 - h6: Represent different levels of headings.
+
 p: Represents a paragraph of text.
 
 
 -----------------------------------------------------------------------------------------
+
+
+##Attributes
+ 1.action  ->[".html"]
+ 2.target  ->[_blank]
+ 3.method  ->[POST,GET]
+ 4.name
+
 
 <element> or <tag>
 <open tag>
