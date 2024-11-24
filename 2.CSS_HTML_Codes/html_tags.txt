@@ -1,6 +1,4 @@
 
-1. Class Selector (.): Styles multiple elements with the same class name.
-
 
 
 #############################################################################
