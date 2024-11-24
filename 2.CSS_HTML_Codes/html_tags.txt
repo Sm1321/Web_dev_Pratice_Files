@@ -3,7 +3,7 @@ types of selectors
 1.class selector(.)
 2.id selector(#)
 3.tag name selector(h1,p)
-4.universal selector(*)
+
 
 Use of Selectors:
 -------------------------
