@@ -1,6 +1,6 @@
 
 1. Class Selector (.): Styles multiple elements with the same class name.
-2. ID Selector (#): Targets and styles a unique element with a specific ID.
+
 
 
 #############################################################################
