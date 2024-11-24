@@ -1,7 +1,4 @@
 types of selectors
-----------------------
-1.class selector(.)
-
 
 Use of Selectors:
 -------------------------
