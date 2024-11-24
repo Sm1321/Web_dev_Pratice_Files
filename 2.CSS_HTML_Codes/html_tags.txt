@@ -1,7 +1,6 @@
 types of selectors
 ----------------------
 1.class selector(.)
-2.id selector(#)
 
 
 Use of Selectors:
