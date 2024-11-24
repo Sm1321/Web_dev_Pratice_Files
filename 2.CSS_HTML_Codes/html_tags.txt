@@ -1,4 +1,3 @@
-types of selectors
 
 Use of Selectors:
 -------------------------
