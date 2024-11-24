@@ -1,6 +1,6 @@
 
 Use of Selectors:
--------------------------
+-
 1. Class Selector (.): Styles multiple elements with the same class name.
 2. ID Selector (#): Targets and styles a unique element with a specific ID.
 3. Tag Name Selector (h1, p): Applies styles to all elements of a specific tag.
